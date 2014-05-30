@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa36c21-7d73-4983-8344-50d729b83bec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/manozodynas.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Buildout_Eggs3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/models.py" afterPath="$PROJECT_DIR$/src/manozodynas/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/urls.py" afterPath="$PROJECT_DIR$/src/manozodynas/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/views.py" afterPath="$PROJECT_DIR$/src/manozodynas/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" afterPath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manozodynas.iws" />
@@ -30,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="885">
+            <state line="56" column="0" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.74930364" vertical-offset="571" max-vertical-offset="930">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -44,7 +44,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="71" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="15" column="40" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="70" selection-start="932" selection-end="932" vertical-scroll-proportion="0.79452056" vertical-offset="72" max-vertical-offset="510">
+            <state line="33" column="30" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="630">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -66,16 +66,16 @@
       <file leaf-file-name="wordlist.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
+            <state line="8" column="9" selection-start="141" selection-end="141" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/login.html">
+      <file leaf-file-name="addword.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="142" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -94,10 +94,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/manozodynas/models.py" />
-        <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" />
         <option value="$PROJECT_DIR$/src/manozodynas/urls.py" />
         <option value="$PROJECT_DIR$/src/manozodynas/views.py" />
+        <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" />
+        <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html" />
+        <option value="$PROJECT_DIR$/src/manozodynas/models.py" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
     <option name="x" value="64" />
     <option name="y" value="-4" />
     <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="height" value="669" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -209,6 +210,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manozodynas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manozodynas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manozodynas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manozodynas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,11 +400,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="64" y="-4" width="1303" height="669" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26307923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31150442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24750192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -434,15 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="885">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="142" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
@@ -452,25 +466,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="272" selection-end="272" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
+        <state line="8" column="9" selection-start="141" selection-end="141" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="10" selection-start="3350" selection-end="3350" vertical-scroll-proportion="-2.6915889" vertical-offset="1689" max-vertical-offset="2010">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="30" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="630">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="15" column="40" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/views.py">
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="932" selection-end="932" vertical-scroll-proportion="0.79452056" vertical-offset="72" max-vertical-offset="510">
+        <state line="56" column="0" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.74930364" vertical-offset="571" max-vertical-offset="930">
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
