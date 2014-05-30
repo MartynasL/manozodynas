@@ -2,16 +2,18 @@ from django.conf.urls import patterns, url
 from django.conf import settings
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from twisted.trial.util import _WorkingDirectoryBusy
 
-from .views import index_view, login_view
+from .views import index_view, login_view, wordlist_view
 
 urlpatterns = patterns('',
-    url(r'^$', index_view, name='index'),
-    url(r'^login$', login_view, name='login'),
-)
+                       url(r'^$', index_view, name='index'),
+                       url(r'^login$', login_view, name='login'),
+                       url(r'^wordlist$', wordlist_view, name='wordlist')
+                       )
 
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += patterns('',
-    (r'^media/(?P<path>.*)$', 'django.views.static.serve',
-     {'document_root': settings.MEDIA_ROOT}),
-)
+                        (r'^media/(?P<path>.*)$', 'django.views.static.serve',
+                         {'document_root': settings.MEDIA_ROOT}),
+                        )
