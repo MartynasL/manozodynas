@@ -8,10 +8,20 @@
     <table border="1px">
         <th>Word</th>
         <th>Translation</th>
+        <th>Votes</th>
         {% for translation in translations %}
         <tr>
             <td>{{ translation.word }}</td>
             <td>{{ translation.translation }}</td>
+            <td>{{ translation.vote }}</td>
+            <td>
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="hidden" value="{{ translation.id }}" name="id">
+                    <input type="submit" value="+" name="plus">
+                    <input type="submit" value="-" name="minus">
+                </form>
+            </td>
         </tr>
         {% endfor %}
     </table>

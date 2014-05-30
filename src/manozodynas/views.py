@@ -32,8 +32,17 @@ def wordlist_view(request):
 
 
 def translationlist_view(request):
+    if request.method == "POST":
+        translation_vote = Translation.objects.get(pk=request.POST.get('id'))
+        if request.POST.get('plus'):
+            translation_vote.vote += 1
+        if request.POST.get('minus'):
+            translation_vote.vote -= 1
+        translation_vote.save()
+
     return render(request, 'manozodynas/translationlist.html',
                   {'translations': Translation.objects.all()})
+
 
 class AddWordView(CreateView):
     model = Word

@@ -48,7 +48,11 @@ class User(AbstractBaseUser, PermissionsMixin):
 class Word(models.Model):
     value = models.CharField(max_length='50', unique=True)
 
+    def __str__(self):
+        return "%s" % self.value
+
 
 class Translation(models.Model):
     word = models.ForeignKey('Word')
     translation = models.CharField(max_length='50')
+    vote = models.IntegerField(default=0)
