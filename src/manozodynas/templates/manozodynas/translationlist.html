@@ -9,7 +9,7 @@
         <th>Word</th>
         <th>Translation</th>
         <th>Votes</th>
-        {% for translation in translations %}
+        {% for translation in translations|dictsortreversed:"vote" %}
         <tr>
             <td>{{ translation.word }}</td>
             <td>{{ translation.translation }}</td>
