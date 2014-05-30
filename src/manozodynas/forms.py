@@ -1,6 +1,8 @@
 from django import forms
 from django.contrib.auth import authenticate
 from django.utils.translation import ugettext_lazy as _
+from .models import Translation
+
 
 class LoginForm(forms.Form):
     username = forms.CharField()
@@ -16,3 +18,9 @@ class LoginForm(forms.Form):
             raise forms.ValidationError(_('Username or password is incorrect'))
         cleaned_data['user'] = user
         return cleaned_data
+
+
+class AddTranslationForm(forms.ModelForm):
+    class Meta:
+        model = Translation
+        exclude = ('vote',)

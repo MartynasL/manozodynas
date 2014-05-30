@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
-from .forms import LoginForm
+from .forms import LoginForm, AddTranslationForm
 from .models import Word, Translation
 from django.contrib.auth import login
 from django.views.generic.edit import CreateView
@@ -51,6 +51,6 @@ class AddWordView(CreateView):
 
 
 class AddTranslationView(CreateView):
-    model = Translation
+    form_class = AddTranslationForm
     template_name = 'manozodynas/addtranslation.html'
     success_url = reverse_lazy('translation_list')
