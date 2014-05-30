@@ -39,3 +39,9 @@ class AddWordView(CreateView):
     model = Word
     template_name = 'manozodynas/addword.html'
     success_url = reverse_lazy('word_list')
+
+
+class AddTranslationView(CreateView):
+    model = Translation
+    template_name = 'manozodynas/addtranslation.html'
+    success_url = reverse_lazy('translation_list')

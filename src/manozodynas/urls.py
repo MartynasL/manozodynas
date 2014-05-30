@@ -5,14 +5,17 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from twisted.trial.util import _WorkingDirectoryBusy
 
 from .views import index_view, login_view, wordlist_view, AddWordView,\
-    translationlist_view
+    translationlist_view, AddTranslationView
 
 urlpatterns = patterns('',
                        url(r'^$', index_view, name='index'),
                        url(r'^login$', login_view, name='login'),
                        url(r'^wordlist$', wordlist_view, name='word_list'),
-                       url(r'^addword$', AddWordView.as_view() , name='add_word'),
-                       url(r'^translationlist$', translationlist_view , name='add_word'),
+                       url(r'^addword$', AddWordView.as_view(), name='add_word'),
+                       url(r'^translationlist$', translationlist_view,
+                           name='translation_list'),
+                       url(r'^addtranslation$', AddTranslationView.as_view(),
+                           name='add_translation'),
                        )
 
 urlpatterns += staticfiles_urlpatterns()
