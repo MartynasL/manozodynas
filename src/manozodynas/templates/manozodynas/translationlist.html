@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translation list</title>
+</head>
+<body>
+    <h1>List of words translations</h1>
+    <table border="1px">
+        <th>Word</th>
+        <th>Translation</th>
+        {% for translation in translations %}
+        <tr>
+            <td>{{ translation.word }}</td>
+            <td>{{ translation.translation }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

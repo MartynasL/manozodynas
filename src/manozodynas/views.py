@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from .forms import LoginForm
-from .models import Word
+from .models import Word, Translation
 from django.contrib.auth import login
 from django.views.generic.edit import CreateView
 from django.core.urlresolvers import reverse_lazy
@@ -27,11 +27,15 @@ def login_view(request):
 
 
 def wordlist_view(request):
-    return render(request, 'manozodynas/wordlist.html', {'words':
-                                                             Word.objects.all()})
+    return render(request, 'manozodynas/wordlist.html',
+                  {'words': Word.objects.all()})
 
+
+def translationlist_view(request):
+    return render(request, 'manozodynas/translationlist.html',
+                  {'translations': Translation.objects.all()})
 
 class AddWordView(CreateView):
     model = Word
     template_name = 'manozodynas/addword.html'
-    success_url = reverse_lazy('wordlist')
+    success_url = reverse_lazy('word_list')
