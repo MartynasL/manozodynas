@@ -1,7 +1,7 @@
 # encoding: utf-8
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from .models import Translation
+from .models import Translation, Word
 from manozodynas.testutils import StatefulTesting
 
 
@@ -85,3 +85,21 @@ class TranslationListTestCase(StatefulTesting):
         self.submitForm({'minus': '-', })
         self.assertStatusCode(200)
         self.assertEqual(Translation.objects.get(pk=1).vote, -1)
+
+
+class AddWordTest(StatefulTesting):
+    fixtures = ['translationlist_test_fixture.json']
+
+    def test_add_existing_word(self):
+        self.open('add_word')
+        self.selectForm('#add_word_form')
+        self.submitForm({'value': 'hello', })
+        self.assertStatusCode(200)
+        self.assertEqual(Word.objects.filter(value='hello').count(), 1)
+
+    def test_add_new_word(self):
+        self.open('add_word')
+        self.selectForm('#add_word_form')
+        self.submitForm({'value': 'goodbye', })
+        self.assertStatusCode(302)
+        self.assertNotEqual(Word.objects.get(value='goodbye'), None)
