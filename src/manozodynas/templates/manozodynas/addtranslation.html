@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Translation add form</h1>
-    <form method="post" id="add_word_form">
+    <form method="post" id="add_translation_form">
         {% csrf_token %}
         {{ form.as_p }}
         <input type="submit" value="Submit">

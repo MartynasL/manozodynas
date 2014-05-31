@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa36c21-7d73-4983-8344-50d729b83bec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html" afterPath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/tests.py" afterPath="$PROJECT_DIR$/src/manozodynas/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/translationlist.html" afterPath="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/translationlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manozodynas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,6 +44,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="addtranslation.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="43" selection-start="157" selection-end="157" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,7 +67,7 @@
       <file leaf-file-name="translationlist_test_fixture.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="12" column="18" selection-start="195" selection-end="195" vertical-scroll-proportion="-5.4" vertical-offset="45" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -69,7 +76,7 @@
       <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="30" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.4745223" vertical-offset="946" max-vertical-offset="1275">
+            <state line="114" column="33" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5700637" vertical-offset="1531" max-vertical-offset="1845">
               <folding>
                 <element signature="e#18#50#0" expanded="true" />
               </folding>
@@ -80,7 +87,7 @@
       <file leaf-file-name="testutils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manozodynas/testutils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="20" selection-start="4383" selection-end="4389" vertical-scroll-proportion="-2.6571429" vertical-offset="1647" max-vertical-offset="3630">
+            <state line="121" column="9" selection-start="4138" selection-end="4138" vertical-scroll-proportion="-4.8" vertical-offset="1482" max-vertical-offset="3630">
               <folding />
             </state>
           </provider>
@@ -90,15 +97,6 @@
         <entry file="file://$PROJECT_DIR$/src/manozodynas/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="8" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translationlist.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/translationlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="495" selection-end="495" vertical-scroll-proportion="-4.375" vertical-offset="150" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -119,14 +117,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/wordlist.html" />
         <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html" />
-        <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html" />
         <option value="$PROJECT_DIR$/src/manozodynas/urls.py" />
         <option value="$PROJECT_DIR$/src/manozodynas/models.py" />
         <option value="$PROJECT_DIR$/src/manozodynas/forms.py" />
         <option value="$PROJECT_DIR$/src/manozodynas/views.py" />
         <option value="$PROJECT_DIR$/src/manozodynas/settings.py" />
-        <option value="$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json" />
         <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/translationlist.html" />
+        <option value="$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json" />
+        <option value="$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html" />
         <option value="$PROJECT_DIR$/src/manozodynas/tests.py" />
       </list>
     </option>
@@ -444,7 +442,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24726988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31028038" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -549,7 +547,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="285" />
+        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="285">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/models.py">
@@ -581,11 +581,6 @@
         <state line="7" column="0" selection-start="107" selection-end="284" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="144" selection-end="168" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="930">
@@ -602,23 +597,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/fixtures/test_fixture.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2283737" vertical-offset="66" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="204" column="11" selection-start="6150" selection-end="6150" vertical-scroll-proportion="0.0" vertical-offset="2791" max-vertical-offset="3165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
@@ -630,30 +611,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/fixtures/test_fixture.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.31141868" vertical-offset="90" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="144" selection-end="168" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/translationlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="495" selection-end="495" vertical-scroll-proportion="-4.375" vertical-offset="150" max-vertical-offset="510">
+        <state line="17" column="36" selection-start="495" selection-end="495" vertical-scroll-proportion="0.36206895" vertical-offset="150" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/testutils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="20" selection-start="4383" selection-end="4389" vertical-scroll-proportion="-2.6571429" vertical-offset="1647" max-vertical-offset="3630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manozodynas/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="121" column="9" selection-start="4138" selection-end="4138" vertical-scroll-proportion="-4.8" vertical-offset="1482" max-vertical-offset="3630">
           <folding />
         </state>
       </provider>
@@ -665,9 +646,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/templates/manozodynas/addtranslation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="157" selection-end="157" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="48" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manozodynas/fixtures/translationlist_test_fixture.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="195" selection-end="195" vertical-scroll-proportion="-5.4" vertical-offset="45" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/manozodynas/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="30" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.4745223" vertical-offset="946" max-vertical-offset="1275">
+        <state line="114" column="33" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5700637" vertical-offset="1531" max-vertical-offset="1845">
           <folding>
             <element signature="e#18#50#0" expanded="true" />
           </folding>

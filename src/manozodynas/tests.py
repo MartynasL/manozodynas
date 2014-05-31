@@ -103,3 +103,16 @@ class AddWordTest(StatefulTesting):
         self.submitForm({'value': 'goodbye', })
         self.assertStatusCode(302)
         self.assertNotEqual(Word.objects.get(value='goodbye'), None)
+
+
+class AddTranslationTest(StatefulTesting):
+    fixtures = ['translationlist_test_fixture.json']
+
+    def test_add_new_translation(self):
+        self.open('add_translation')
+        self.selectForm('#add_translation_form')
+        self.submitForm({'word': '1', 'translation': 'sveikas'})
+        self.assertStatusCode(302)
+        self.assertEqual(Translation.objects.filter(word='1').count(), 2)
+        self.assertNotEqual(Translation.objects.filter(word='1',
+                                                translation='sveikas'), None)
