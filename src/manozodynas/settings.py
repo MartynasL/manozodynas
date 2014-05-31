@@ -200,3 +200,6 @@ LOGGING = {
 
 # Testing settings
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+# No migration is made when running tests
+SOUTH_TESTS_MIGRATE = False
