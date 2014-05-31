@@ -1,0 +1,18 @@
+[
+  {
+    "pk": 1,
+    "model": "manozodynas.word",
+    "fields": {
+        "value": "hello"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "manozodynas.translation",
+    "fields": {
+        "word": "1",
+        "translation": "labas",
+        "vote": "0"
+    }
+  }
+]

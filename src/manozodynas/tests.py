@@ -1,6 +1,7 @@
 # encoding: utf-8
 from django.test import TestCase
 from django.core.urlresolvers import reverse
+from .models import Translation
 from manozodynas.testutils import StatefulTesting
 
 
@@ -66,3 +67,21 @@ class LoginTestCase(StatefulTesting):
         })
         self.assertStatusCode(200)
         self.selectOne('.errorlist')
+
+
+class TranslationListTestCase(StatefulTesting):
+    fixtures = ['translationlist_test_fixture.json']
+
+    def test_vote_plus(self):
+        self.open(reverse('translation_list'))
+        self.selectForm('#vote_form_1')
+        self.submitForm({'plus': '+', })
+        self.assertStatusCode(200)
+        self.assertEqual(Translation.objects.get(pk=1).vote, 1)
+
+    def test_vote_minus(self):
+        self.open(reverse('translation_list'))
+        self.selectForm('#vote_form_1')
+        self.submitForm({'minus': '-', })
+        self.assertStatusCode(200)
+        self.assertEqual(Translation.objects.get(pk=1).vote, -1)

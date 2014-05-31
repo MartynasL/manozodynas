@@ -15,7 +15,7 @@
             <td>{{ translation.translation }}</td>
             <td>{{ translation.vote }}</td>
             <td>
-                <form method="post">
+                <form id="vote_form_{{ translation.id }}" method="post">
                     {% csrf_token %}
                     <input type="hidden" value="{{ translation.id }}" name="id">
                     <input type="submit" value="+" name="plus">
